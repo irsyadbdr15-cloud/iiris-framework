@@ -1,0 +1,182 @@
+/* =====================================================
+   File Name : button.css
+   Module    : ERP Design System
+   ===================================================== */
+
+.btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:10px;
+
+    padding:10px 18px;
+
+    border-radius:var(--radius-md);
+
+    font-size:var(--text-sm);
+
+    font-weight:600;
+
+    transition:var(--transition);
+
+    cursor:pointer;
+
+    user-select:none;
+
+}
+
+.btn i{
+
+    font-size:14px;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-2px);
+
+}
+
+.btn:active{
+
+    transform:translateY(0);
+
+}
+
+/* =====================================================
+   Sub Task : button Primary
+   
+   ===================================================== */
+
+.btn-primary{
+
+    background:var(--primary);
+
+    color:white;
+
+}
+
+.btn-primary:hover{
+
+    background:var(--primary-hover);
+
+}
+
+/* =====================================================
+   Sub Task : button success
+   
+   ===================================================== */
+
+.btn-success{
+
+    background:var(--success);
+
+    color:white;
+
+}
+
+/* =====================================================
+   Sub Task : button danger
+   
+   ===================================================== */
+
+.btn-danger{
+
+    background:var(--danger);
+
+    color:white;
+
+}
+
+/* =====================================================
+   Sub Task : button warning
+   
+   ===================================================== */
+
+.btn-warning{
+
+    background:var(--warning);
+
+    color:white;
+
+}
+
+/* =====================================================
+   Sub Task : button secondary
+   
+   ===================================================== */
+
+.btn-secondary{
+
+    background:var(--surface-light);
+
+    color:var(--text);
+
+    border:1px solid var(--border);
+
+}
+
+/* =====================================================
+   Sub Task : button outline
+   
+   ===================================================== */
+
+.btn-outline{
+
+    background:white;
+
+    border:1px solid var(--primary);
+
+    color:var(--primary);
+
+}
+
+/* =====================================================
+   Sub Task : button small
+   
+   ===================================================== */
+
+.btn-sm{
+
+    padding:8px 14px;
+
+}
+
+/* =====================================================
+   Sub Task : button large
+   
+   ===================================================== */
+
+   .btn-lg{
+
+    padding:14px 24px;
+
+}
+
+.btn:disabled{
+
+    opacity:.6;
+
+    cursor:not-allowed;
+
+}
+
+.btn-loading{
+
+    pointer-events:none;
+
+}
+
+.btn-icon{
+
+    width:42px;
+
+    height:42px;
+
+    padding:0;
+
+}

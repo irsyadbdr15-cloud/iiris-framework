@@ -1,0 +1,164 @@
+/* =====================================================
+   Sidebar Layout
+
+   1. Sidebar Container
+   2. Logo
+   3. Navigation
+   4. Navigation Group
+   5. Navigation Link
+   6. Active State
+   7. Hover State
+   8. Collapse (Future)
+   9. Responsive (Future)
+
+===================================================== */
+
+/* =====================================================
+   File Name : sidebar.css
+   Module    : ERP Layout Engine
+   Version   : 1.0.0
+===================================================== */
+
+/* =====================================================
+   1. Sidebar Container
+===================================================== */
+
+.sidebar{
+
+    width:260px;
+
+    min-height:100vh;
+
+    background:#0F172A;
+
+    color:#FFFFFF;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+/* =====================================================
+   2. Logo
+===================================================== */
+
+.sidebar-logo{
+
+    height:72px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    padding:0 24px;
+
+    font-size:22px;
+
+    font-weight:700;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.sidebar-logo i{
+
+    color:var(--primary);
+
+}
+
+/* =====================================================
+   3. Navigation
+===================================================== */
+
+.sidebar-nav{
+
+    padding:24px 0;
+
+}
+
+/* =====================================================
+   4. Navigation Group
+===================================================== */
+
+.nav-group{
+
+    margin-bottom:28px;
+
+}
+
+/* =====================================================
+   5. Navigation Title
+===================================================== */
+
+.nav-title{
+
+    padding:0 24px 10px;
+
+    font-size:12px;
+
+    font-weight:700;
+
+    text-transform:uppercase;
+
+    letter-spacing:1px;
+
+    color:#94A3B8;
+
+}
+
+/* =====================================================
+   6. Navigation Link
+===================================================== */
+
+.nav-link{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    padding:12px 24px;
+
+    color:#CBD5E1;
+
+    transition:var(--transition);
+
+}
+
+.nav-link i{
+
+    width:18px;
+
+    text-align:center;
+
+}
+
+/* =====================================================
+   7. Hover
+===================================================== */
+
+.nav-link:hover{
+
+    background:rgba(255,255,255,.05);
+
+    color:#FFFFFF;
+
+}
+
+/* =====================================================
+   8. Active
+===================================================== */
+
+.nav-link.active{
+
+    background:var(--primary);
+
+    color:#FFFFFF;
+
+    border-left:4px solid #FFFFFF;
+
+}

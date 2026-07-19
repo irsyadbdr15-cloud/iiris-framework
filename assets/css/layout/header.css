@@ -1,0 +1,199 @@
+/* =====================================================
+   File Name : header.css
+   Module    : ERP Layout Engine
+   Version   : 1.0.0
+===================================================== */
+
+/* =====================================================
+   1. Page Header
+===================================================== */
+
+.page-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:24px 32px;
+
+    background:var(--surface);
+
+    border-bottom:1px solid var(--border);
+
+}
+
+/* =====================================================
+   2. Header Left
+===================================================== */
+
+.page-header-left{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:6px;
+
+}
+
+.page-header-title{
+
+    margin:0;
+
+    font-size:32px;
+
+    font-weight:700;
+
+    color:var(--text);
+
+}
+
+.page-header-subtitle{
+
+    font-size:14px;
+
+    color:var(--text-secondary);
+
+}
+
+/* =====================================================
+   3. Header Right
+===================================================== */
+
+.page-header-right{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:16px;
+
+}
+
+/* =====================================================
+   4. Header Action
+===================================================== */
+
+.header-action{
+
+    width:42px;
+
+    height:42px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:50%;
+
+    background:var(--surface-light);
+
+    cursor:pointer;
+
+    transition:var(--transition);
+
+}
+
+.header-action:hover{
+
+    background:var(--primary);
+
+    color:#FFFFFF;
+
+}
+
+/* =====================================================
+   5. User Profile
+===================================================== */
+
+.user-profile{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    padding-left:16px;
+
+    border-left:1px solid var(--border);
+
+}
+
+.user-avatar{
+
+    width:42px;
+
+    height:42px;
+
+    border-radius:50%;
+
+    background:var(--primary);
+
+    color:#FFFFFF;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-weight:700;
+
+}
+
+.user-info{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.user-name{
+
+    font-size:14px;
+
+    font-weight:600;
+
+    color:var(--text);
+
+}
+
+.user-role{
+
+    font-size:12px;
+
+    color:var(--text-light);
+
+}
+
+/* =====================================================
+   Breadcrumb
+===================================================== */
+
+.breadcrumb{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    margin-bottom:8px;
+
+    font-size:13px;
+
+    color:var(--text-light);
+
+}
+
+.breadcrumb i{
+
+    font-size:11px;
+
+}

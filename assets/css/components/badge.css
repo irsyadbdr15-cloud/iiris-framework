@@ -1,0 +1,74 @@
+/* =====================================================
+   File Name : badge.css
+   Module    : ERP Design System
+   ===================================================== */
+
+   .badge{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:4px 10px;
+
+    border-radius:999px;
+
+    font-size:12px;
+
+    font-weight:600;
+
+}
+
+/* =====================================================
+   Sub Task  : badge success
+   Module    : ERP Design System
+   ===================================================== */
+
+.badge-success{
+
+    background:#DCFCE7;
+
+    color:#166534;
+
+}
+
+/* =====================================================
+   Sub Task  : badge warning
+   Module    : ERP Design System
+   ===================================================== */
+
+.badge-warning{
+
+    background:#FEF3C7;
+
+    color:#92400E;
+
+}
+
+/* =====================================================
+   Sub Task  : badge danger
+   Module    : ERP Design System
+   ===================================================== */
+
+.badge-danger{
+
+    background:#FEE2E2;
+
+    color:#B91C1C;
+
+}
+
+/* =====================================================
+   Sub Task  : badge info
+   Module    : ERP Design System
+   ===================================================== */
+
+.badge-info{
+
+    background:#DBEAFE;
+
+    color:#1D4ED8;
+
+}

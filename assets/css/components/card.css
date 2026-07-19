@@ -1,0 +1,57 @@
+/* =====================================================
+   File Name : card.css
+   Module    : ERP Design System
+   ===================================================== */
+
+
+.card{
+
+    background:var(--surface);
+
+    border-radius:var(--radius-xl);
+
+    box-shadow:var(--shadow-sm);
+
+    padding:24px;
+
+    transition:var(--transition);
+
+}
+
+.card:hover{
+
+    box-shadow:var(--shadow-md);
+
+}
+
+.card-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:20px;
+
+}
+
+.card-title{
+
+    font-size:20px;
+
+    font-weight:700;
+
+}
+
+.card-body{
+
+    display:block;
+
+}
+
+.card-footer{
+
+    margin-top:20px;
+
+}

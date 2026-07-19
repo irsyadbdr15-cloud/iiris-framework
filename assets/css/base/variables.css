@@ -1,0 +1,84 @@
+/* =====================================================
+   IIRIS ERP Design System
+   Version : 1.0
+   ===================================================== */
+
+:root{
+
+    /* ========= Brand ========= */
+
+    --primary:#2563EB;
+    --primary-hover:#1D4ED8;
+
+    /* ========= Semantic ========= */
+
+    --success:#22C55E;
+    --warning:#F59E0B;
+    --danger:#EF4444;
+    --info:#0EA5E9;
+
+    /* ========= Surface ========= */
+
+    --background:#F5F7FB;
+    --surface:#FFFFFF;
+    --surface-light:#F8FAFC;
+
+    /* ========= Border ========= */
+
+    --border:#E5E7EB;
+    --border-light:#EEF2F7;
+
+    /* ========= Typography ========= */
+
+    --text:#0F172A;
+    --text-secondary:#475569;
+    --text-light:#94A3B8;
+
+    /* ========= Radius ========= */
+
+    --radius-sm:6px;
+    --radius-md:10px;
+    --radius-lg:16px;
+    --radius-xl:20px;
+
+    /* ========= Shadow ========= */
+
+    --shadow-sm:
+        0 2px 8px rgba(15,23,42,.05);
+
+    --shadow-md:
+        0 8px 20px rgba(15,23,42,.08);
+
+    --shadow-lg:
+        0 12px 28px rgba(15,23,42,.10);
+
+    /* ========= Transition ========= */
+
+    --transition:all .25s ease;
+
+    /* ========= Font ========= */
+
+    --font-family:'Inter',sans-serif;
+
+    /* ========= Font Size ========= */
+
+    --text-xs:12px;
+    --text-sm:14px;
+    --text-md:16px;
+    --text-lg:18px;
+    --text-xl:24px;
+    --text-2xl:32px;
+
+    /* ========= Spacing ========= */
+
+    --space-1:4px;
+    --space-2:8px;
+    --space-3:12px;
+    --space-4:16px;
+    --space-5:20px;
+    --space-6:24px;
+    --space-8:32px;
+    --space-10:40px;
+
+}
+

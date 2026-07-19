@@ -1,0 +1,38 @@
+/* =====================================================
+   File Name : form.css
+   Module    : ERP Design System
+   ===================================================== */
+
+   .form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.form-group{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.form-label{
+
+    margin-bottom:8px;
+
+}
+
+.form-row{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:20px;
+
+}
